@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AURA — Creative Digital Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <div class="noise"></div>
+
+  <header class="header">
+    <a href="#home" class="logo">aura<span>✳</span></a>
+    <nav class="nav" id="nav">
+      <a href="#home">Главная</a>
+      <a href="#about">О нас</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+    <a class="nav-button" href="#contact">Начать проект ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot"></span> INDEPENDENT CREATIVE STUDIO</div>
+        <h1>Beyond<br><span class="gradient-text">ordinary.</span></h1>
+        <p>Мы превращаем смелые идеи в цифровые впечатления, которые невозможно забыть.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="primary-btn">Исследовать проекты <span>↗</span></a>
+          <a href="#about" class="text-btn">Узнать больше ↗</a>
+        </div>
+        <div class="hero-bottom">
+          <span>SCROLL TO EXPLORE</span>
+          <span>↓</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orb"></div>
+        <div class="floating-tag tag-one">✳ DIGITAL ART</div>
+        <div class="floating-tag tag-two">EST. 2026 ↗</div>
+      </div>
+      <div class="hero-index">01 / 04</div>
+    </section>
+
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>DESIGN ✳ INNOVATION ✳ EXPERIENCE ✳ CREATIVITY ✳</span>
+        <span>DESIGN ✳ INNOVATION ✳ EXPERIENCE ✳ CREATIVITY ✳</span>
+      </div>
+    </div>
+
+    <section class="about section" id="about">
+      <div class="section-label">01 / КТО МЫ</div>
+      <div class="about-layout">
+        <h2 class="reveal">Дизайн — это<br>не просто <em>красота.</em></h2>
+        <div class="about-text reveal">
+          <p>Это эмоции, характер и новые возможности. Мы создаём цифровые пространства, в которых технологии встречаются с искусством.</p>
+          <a href="#contact" class="underline-link">Создадим что-то вместе ↗</a>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat reveal"><strong data-count="24">0</strong><span>Проекта</span></div>
+        <div class="stat reveal"><strong data-count="12">0</strong><span>Наград</span></div>
+        <div class="stat reveal"><strong data-count="8">0</strong><span>Стран</span></div>
+        <div class="stat reveal"><strong data-count="100" data-suffix="%">0</strong><span>Вдохновения</span></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-label">02 / ИЗБРАННЫЕ РАБОТЫ</div>
+      <div class="section-heading reveal">
+        <h2>Selected <em>work.</em></h2>
+        <p>Каждый проект — отдельная история.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-visual visual-one">
+            <div class="project-shape shape-one"></div>
+            <span class="visual-title">ÉTERNA</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info"><h3>Éterna Beauty</h3><span>BRANDING / 2026</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-two">
+            <div class="project-shape shape-two"></div>
+            <span class="visual-title">MONO.</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info"><h3>Mono Objects</h3><span>WEB DESIGN / 2026</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-three">
+            <div class="project-shape shape-three"></div>
+            <span class="visual-title">NOVA</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info"><h3>Nova Future</h3><span>DIGITAL / 2026</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-visual visual-four">
+            <div class="project-shape shape-four"></div>
+            <span class="visual-title">FORME</span>
+            <span class="project-arrow">↗</span>
+          </div>
+          <div class="project-info"><h3>Forme Studio</h3><span>ART DIRECTION / 2026</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-label">03 / СВЯЗАТЬСЯ С НАМИ</div>
+      <div class="contact-inner reveal">
+        <div class="contact-star">✳</div>
+        <p>ЕСТЬ ИДЕЯ? ДАВАЙТЕ ВОПЛОТИМ ЕЁ.</p>
+        <h2>Let's make<br><em>magic.</em></h2>
+        <a class="contact-button" href="mailto:hello@example.com?subject=AURA%20Project">Написать нам <span>↗</span></a>
+        <small>Демо-адрес: замените hello@example.com на свой email.</small>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">aura<span>✳</span></a>
+    <span>© 2026 AURA STUDIO. CONCEPT WEBSITE.</span>
+    <a href="#home">НАВЕРХ ↑</a>
+  </footer>
+</body>
+</html>
